@@ -20,7 +20,7 @@ function init() {
 
     const month = monthComponent(year[0])
 
-    root.insertAdjacentHTML("beforeend", firstDay)
+    root.insertAdjacentHTML("beforeend", month)
 }
 
 init()
